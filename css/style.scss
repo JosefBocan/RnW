@@ -13,9 +13,6 @@ body {
     background-color: #b37400;
 }
 
-.scrollUp {
-
-}
 
 nav {
 
@@ -173,12 +170,22 @@ nav {
 .gallery {
     margin: 50px 0;
     .items {
-        padding: 0 30px;
+        padding: 0 0;
+
+
     }
     img {
         height: 125px;
         width: 125px;
+        margin-top: 10px;
+        margin-left: 5px;
+        border-radius: 100px;
+
     }
+  .blueimp-gallery .slides .slide .slide-content{
+    border-radius: 0; //no borders in max view
+
+  }
 }
 
 .Image {

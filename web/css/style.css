@@ -121,10 +121,15 @@ nav.menu {
 .gallery {
   margin: 50px 0; }
   .gallery .items {
-    padding: 0 30px; }
+    padding: 0 0; }
   .gallery img {
     height: 125px;
-    width: 125px; }
+    width: 125px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 100px; }
+  .gallery .blueimp-gallery .slides .slide .slide-content {
+    border-radius: 0; }
 
 .Image {
   padding: 30px; }
