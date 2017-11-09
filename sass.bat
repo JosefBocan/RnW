@@ -1,0 +1,1 @@
+scss --watch css/style.scss:web/css/style.css
